@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #121826;
+    background-image: url(./images/Background.png);
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     height: 30vh;
+     width: 100%;
+}
+
+.heading h1 {
+    color: #E5E7EB;
+    width: 30%;
+    font-family: Outfit;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+.heading p {
+    color: #9DA3AE;
+    width: 30%;
+    font-family: Outfit;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.cards-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+   
+}
+.card1, .card2, .card3 {
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 18%;
+    height: 80%;
+    margin: 0 10px;
+    background-color:#212936;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.sub-heading {
+    font-family: Outfit;
+    color:#E5E7EB;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description {
+    font-family: Outfit;
+    color: #D2D5DA;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.emoji1, .emoji2, .emoji3 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.emoji1 {
+    background-color:#FCEED8;
+    
+}
+.emoji2 {
+    background-color: #DEE9FC;
+}
+.emoji3 {
+    background-color: #FBE5E6;
+}
+
+.card-img1, .card-img2, .card-img3 {
+    width: 235px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.card-img1 {
+    background-image: url(./images/photo_1.png);
+    background-size: cover; 
+}
+.card-img2 {
+    background-image: url(/images/photo_2.png);
+    background-size: cover;
+}
+.card-img3 {
+    background-image: url(./images/photo_3.png);
+    background-size: cover;
+}
