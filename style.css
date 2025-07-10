@@ -110,7 +110,7 @@ main {
     background-size: cover; 
 }
 .card-img2 {
-    background-image: url(/images/photo_2.png);
+    background-image: url(./images/photo_2.png);
     background-size: cover;
 }
 .card-img3 {
